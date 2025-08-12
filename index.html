@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malvadão Car Detail</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #0d0d0d;
+            color: white;
+        }
+        header {
+            background-color: #ff0000;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        nav {
+            background-color: #1a1a1a;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        nav a:hover {
+            color: #ff0000;
+        }
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .hero {
+            background: url('https://images.unsplash.com/photo-1592853625608-34f38207fd38?auto=format&fit=crop&w=1400&q=80') no-repeat center center/cover;
+            padding: 100px 20px;
+            color: white;
+            text-shadow: 2px 2px 5px black;
+        }
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #ff0000;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 8px;
+        }
+        .btn:hover {
+            background-color: #cc0000;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .card {
+            background-color: #1a1a1a;
+            border-radius: 8px;
+            padding: 20px;
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #1a1a1a;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>🚗 Malvadão Car Detail</header>
+
+<nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<section class="hero">
+    <h1>Estética Automotiva de Alta Qualidade</h1>
+    <p>Seu carro como novo, com cuidado e atenção aos detalhes.</p>
+    <a href="https://wa.me/5541998975357" class="btn">📲 Falar no WhatsApp</a>
+</section>
+
+<section id="servicos">
+    <h2>Nossos Serviços</h2>
+    <div class="services">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1622617321783-3b98e8b2f04c?auto=format&fit=crop&w=800&q=80" alt="Polimento Automotivo">
+            <h3>Polimento</h3>
+            <p>Devolva o brilho original do seu veículo.</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1601924994987-69c7fa0d2f0f?auto=format&fit=crop&w=800&q=80" alt="Lavagem Detalhada">
+            <h3>Lavagem Detalhada</h3>
+            <p>Limpeza minuciosa interna e externa.</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1612534200848-b3e51c064d8b?auto=format&fit=crop&w=800&q=80" alt="Higienização Interna">
+            <h3>Higienização</h3>
+            <p>Remoção de odores e sujeiras profundas.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contato">
+    <h2>Entre em Contato</h2>
+    <p>📞 (41) 99897-5357</p>
+    <p>📍 Colombo - PR</p>
+    <a href="https://wa.me/5541998975357" class="btn">Enviar Mensagem</a>
+</section>
+
+<footer>
+    &copy; 2025 Malvadão Car Detail - Todos os direitos reservados.
+</footer>
+
+</body>
+</html>
